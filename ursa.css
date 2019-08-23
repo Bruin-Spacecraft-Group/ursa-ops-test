@@ -1,0 +1,49 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+span {
+  font-family: 'Andale Mono';
+  font-size: 190%;
+  color: white;
+}
+
+button {
+  color: white;
+  font-family: 'Andale Mono';
+  font-weight: 900;
+  font-size: 150%;
+  background-color: #004577; /*#518FAC; /*#AC6E51;*/
+  border: 0.5em solid #004577; /*518FAC; /*#AC6E51;*/
+  min-width: 6.5em;
+  height: 2.5em;
+}
+
+button:hover {
+  background-color: #6DA9C7; /*005878; /*#742700;*/
+  border: 0.5em solid #6DA9C7; /*005878; /*#742700;*/
+}
+
+button:focus {
+  background-color: #6DA9C7; /*005878; /*#742700;*/
+  border-color: #6DA9C7; /*005878; /*#742700;*/
+}
+
+button:active {
+  background-color: #6DA9C7; /*005878; /*#742700;*/
+  border-color: #6DA9C7; /*005878; /*#742700;*/
+}
+
+canvas {
+  background-color: none;
+  width: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  float: right;
+}
+
+.dataDiv {
+  z-index: 0;
+}

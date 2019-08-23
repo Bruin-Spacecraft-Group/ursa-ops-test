@@ -1,0 +1,78 @@
+<html>
+<head>
+  <title>URSA</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,900,900i&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat+Subrayada&display=swap" rel="stylesheet">
+  <link href="ursa.css" rel="stylesheet">
+  <script src="node_modules/chart.js/dist/Chart.js"></script>
+</head>
+
+<body style="background-color: #1e1e1e; margin: 0px;"><!--#001088"--><br>
+
+<div style="border: 5px solid #C1FDFF; padding: 0px 20px 0px 20px;"> <!--AC6E51 B12317 429EC2 509BF5    3E3E3E B1B1B1 1E1E1E-->
+
+  <i><span style="font-weight: 900; font-size: 500%; font-family: 'Montserrat', sans-serif; color: #518FAC;">URSA MAJOR</span></i>
+  <span style="font-weight: 400; font-size: 300%; font-family: 'Montserrat Subrayada', sans-serif; color: #518FAC;"> COMMS STATION - RAPID </span>
+
+  <br>
+
+  <div>
+    <span>It was serene as a storm<br>
+      Over the hillcrest they bloomed<br>
+      Petals of alluring scarlet<br>
+      Plumes of comely plush<br>
+      - KP
+    </span>
+  </div>
+
+  <div class="dataDiv">
+    <canvas style="
+        transform: translate(-35%, -110%);"
+        id="myChart" width=500 height=90></canvas><br><br>
+  </div>
+
+  <div class="dataDiv">
+    <canvas style="
+        transform: translate(-15%, -110%);"
+        id="otroChart" width=500 height=90></canvas>
+  </div>
+
+  <button style="margin-right: 20px;">PROCEED?</button>
+  <button style="margin-right: 20px;">ALL DATA</button>
+  <button style="margin-right: 20px;">TEXT</button>
+  <button style="margin-right: 20px;">30 MINS</button>
+
+  <br><br><br>
+
+  <span>
+    Temperature collection in progress
+  </span>
+
+  <span style="font-family: 'Andale Mono'; font-size: 190%; color: #C1FDFF; left: 6em; position: relative;">PRESSURE</span>
+  <span style="font-family: 'Andale Mono'; font-size: 190%; color: #C1FDFF; left: 10.5em; position: relative;">PROPULSION</span>
+  <br><br>
+
+  <span style="color: #CB511D; font-size: 190%; font-family: 'Andale Mono'" id="erred">ALERT!</span>
+  <span style="color: #CB511D; font-family: 'Andale Mono'; font-size: 190%;">TEMPERATURE ABOVE NOMINAL</span><br><br>
+
+  <span style="font-family: 'Andale Mono'; font-size: 190%; color: #33A77F;">
+    AWAITING CONNECTION...
+  </span><br><br>
+
+  <div style="font-family: 'Andale Mono'; font-size: 150%; color: white; background-color: black; padding: 10px 10px 10px 10px; border: 5px solid #518FAC;">
+    > MCRN intelligence system online <br>
+    > System information (A1) <br>
+    > Start-up test (A2)<br>
+    > Error Log (A3)<br>
+    > Socket1945628::Intelligence_System()<br>
+    > Socket1945628::Sensors_Active()<br>
+    > Scanning Frigate-class ship...<br>
+  </div>
+
+  <br>
+</div>
+
+<script src="ursa.js"></script>
+
+</body>
+</html>
