@@ -29,7 +29,9 @@ var data = {
 }
 
 var options = {
-  cutoutPercentage: 70
+  cutoutPercentage: 70,
+  maintainAspectRatio: false,
+  responsive: true
 }
 
 var myDoughNutChart = new Chart(ctx, {
@@ -57,7 +59,9 @@ data = {
 }
 
 options = {
-  cutoutPercentage: 70
+  cutoutPercentage: 70,
+  maintainAspectRatio: false,
+  responsive: true
 }
 
 var myDoughNutChart = new Chart(ctx, {

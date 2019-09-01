@@ -1,12 +1,23 @@
+/*
+ * COLOR PALETTE TO PULL FROM
+ * PRIMARY: https://convertingcolors.com/hex-color-518FAC.html
+ * https://convertingcolors.com/hex-color-AC6E51.html
+ * https://convertingcolors.com/hex-color-2F8C73.html
+ * UI/UX PALETTE: https://imgur.com/t/theexpanse/ZokAK
+ */
+
 * {
   margin: 0px;
   padding: 0px;
 }
 
-span {
-  font-family: 'Andale Mono';
-  font-size: 190%;
+body {
+  background-color: #1e1e1e;
+  margin: 10px;
+  border: 5px solid #C1FDFF;
+  padding: 0px 20px 0px 20px;
   color: white;
+  font-family: 'Andale Mono';
 }
 
 button {
@@ -36,14 +47,75 @@ button:active {
 }
 
 canvas {
-  background-color: none;
-  width: 50px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  float: right;
+  background-color: none; /* none */
+  margin: 0px;
+}
+
+.consoleDiv {
+  background-color: black;
+  padding: 10px;
+  border: 5px solid #518FAC;
+}
+
+.standardText {
+  font-size: 190%;
+  margin: 0px;
+  padding: 0px;
+  width: auto;
+}
+
+.consoleText {
+  font-size: 150%;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  width: auto;
+}
+
+.redMessage {
+  color: #CB511D;
+}
+
+.greenMessage {
+  color: #33a77f;
+}
+
+.dataText {
+  color: #c1fdff;
 }
 
 .dataDiv {
+  display: inline-block;
   z-index: 0;
+  width: 250;
+  height: 250;
+  padding: 0px;
+  text-align: center;
+}
+
+.dataField {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  display: inline-block;
+  float: right;
+  transform: translate(-10%, -50%);
+}
+
+#pageBanner {
+  margin: 0px;
+  color: #518FAC;
+}
+
+#pageBannerMain {
+  font-weight: 900;
+  font-size: 500%;
+  font-family: 'Montserrat', sans-serif;
+  color: inherit;
+}
+
+#pageBannerSub {
+  font-weight: 400;
+  font-size: 300%;
+  font-family: 'Montserrat Subrayada', sans-serif;
 }
